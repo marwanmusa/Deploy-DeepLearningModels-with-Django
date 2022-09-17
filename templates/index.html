@@ -1,0 +1,16 @@
+<!-- {% load static %} -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Result</title>
+  </head>
+  <body>
+    <h1>Traffic-Sign Classification</h1>
+
+    {% load static %}
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="imageFile" />
+        <input type="submit" name="submit" value="Get Predictions" />
+    </form>
