@@ -1,6 +1,6 @@
 # Deploy Deep Learning Model - CNN with Django
 
-This Repository is a Model Deployment with Django - Model's result provided by Rest API TensorFlow Serving with Docker.
+This Repository is a Model Deployment with Django using TensorFlow Serving in conjunction with Docker to serve a REST API for inference.
 
 Research topic : ***Convolutional Neural network, Image Exploration, Image Preprocessing, TensorFlow, Model Optimization, Model Evaluation, Docker Deployment, Tensorflow Serving, Django Framework***
 
